@@ -1,0 +1,4 @@
+//Estruturas de repetição
+
+//Em muitos algoritmos, ocorrerá a necessidade de executar determindado comando (ou bloco de comandos) por mais qde uma vez. Para não precisar reescrever varias linhas em um algoritmo, pode-se utilizar as estruturas de repetição. Estudaremos três delas: enquanto, repita e para. 
+//Esta estrutura de repetição executara um determinado trecho de codigo repetidas vezes. Este teste e feito de forma semelhante ao comando "SE", caso o resultado do teste seja verdadeiro, ele executara os comandos.
