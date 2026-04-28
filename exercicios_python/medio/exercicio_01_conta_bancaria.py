@@ -37,24 +37,30 @@
 
 import json
 import pandas as pd
+import datetime as dt
 
-transacoes = {"Id": [],
-              "Data":[],
-              "Valor":[]}
+transacoes = [] # {"Id":, "Data":, "Valor":} estrutura de dicionario
+saldo = 0
 
 
-def depositar(saldo, valor):
+def depositar(valor):
+    global saldo
     saldo += valor
+    transacoes.append({"Id": len(transacoes) + 1, "Data": dt.datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "Valor": valor})
     return saldo
 
-def sacar(saldo,valor):
+def sacar(valor):
+    global saldo
     saldo -= valor
+    transacoes.append({"Id": len(transacoes) + 1, "Data": dt.datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "Valor": valor})
     return saldo
 
-def exibir_extrato(saldo, transacoes):
+def exibir_extrato():
+    global saldo, transacoes
     print(f"Saldo: {saldo}\n {transacoes}")
 
-depositar(0, 100)
-saldo_conta = depositar(saldo)
-
-
+depositar(1000)
+print(saldo)
+depositar(100)
+print(saldo)
+print(transacoes)
