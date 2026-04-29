@@ -1,4 +1,54 @@
-# Repositório de estudo para registro de exercicios e projetos basicos com objetivo de treinar minha logica e raciocinio
+# 📚 Estudos em Python
 
-# Python 3.14 
-# Bibliotecas mais utilizadas: Pandas, DateTime, Json, Pathlib
+Repositório dedicado ao registro da minha evolução em Python, com foco em lógica de programação, estrutura de dados e construção de pequenos projetos.
+
+---
+
+## 🚀 Tecnologias
+
+* Python 3.14
+* Pandas
+* Datetime
+* JSON
+* Pathlib
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+fundamentos/
+│
+├── python/
+├── exercicios/
+└── projetos/
+```
+
+---
+
+## 🧠 O que estou praticando
+
+* Estruturas condicionais (if/else)
+* Laços de repetição (for/while)
+* Funções e escopo
+* Tratamento de erros (try/except)
+* Programação orientada a objetos (POO)
+
+---
+
+## 📌 Projetos em destaque
+
+* Sistema de conta bancária (depósito, saque e extrato)
+* (em breve mais projetos)
+
+---
+
+## 🎯 Objetivo
+
+Desenvolver raciocínio lógico e evoluir para projetos mais complexos na área de dados e backend.
+
+---
+
+## 📈 Status
+
+🚧 Em constante evolução
